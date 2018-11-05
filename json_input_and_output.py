@@ -173,4 +173,3 @@ for row in input:
 with open('output_1.json', 'w') as outfile:
         json.dump(all_status_array, outfile)
     
-
