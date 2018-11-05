@@ -26,6 +26,7 @@ for row in input:
     time.sleep(5)
     browser.maximize_window()
     elems=browser.find_elements_by_xpath("//div[contains(@class,'nsol9b hxSlV') or contains(@class, 'k8RiQ nsol9b hxSlV')]")
+    
     i=0
     links=''
     list=[]
